@@ -145,6 +145,12 @@ footer{
 	background-color:#48418e;
 	color: white;
 	text-align: center;
-	font-size: 12px;
-	padding: 2px 0;
+	font-size: 14px;
+	padding: 10px 0;
+	font-weight: 400;
+}
+
+footer p{
+	margin: 0;
+	padding: 0;
 }
