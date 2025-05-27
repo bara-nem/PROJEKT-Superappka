@@ -31,3 +31,120 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+*{
+	font-family: "Source Sans 3", sans-serif;
+}
+
+
+/* HORNÍ MENU */
+
+.menu{
+	display: flex;
+	margin: 0;
+}
+
+li{
+	list-style: none;
+	padding: 20px;
+}
+
+.appka{
+	font-weight: 600;
+	color:#25133d;
+}
+
+a{
+	text-decoration: none;
+	font-weight: 500;
+	color: #25133d;
+}
+
+a:hover, li:hover{
+	background-color: #48418e;
+	color: white;
+}
+
+.appka:hover{
+	background-color: white;
+	color:#25133d;
+}
+
+/* HERO */
+
+
+.hero{
+	display: flex;
+	flex-basis: 100%;
+	background-image: url(images/pozadi.jpg);
+}
+
+.hero .vlevo{
+	width: calc(960px - 405px);
+	min-height: 450px;
+
+	padding-left: 20px;
+}
+
+.hero h1{
+	font-size: 90px;
+	font-weight: 400;
+	color: white;
+	margin: 0;
+}
+
+.hero p{
+	font-size: 36px;
+	font-weight: 300;
+	margin: 0;
+	color: white;
+}
+
+.hero a{
+	font-size: 20px;
+	margin: 0;
+	color: white;
+	padding: 10px 20px;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+.hero a:hover{
+background-color: #48418e;
+}
+
+/* NABÍDKA */
+
+.nabidka{
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+.nabidka div{
+	flex: 0 0 calc((100% / 3) - 30px);
+	margin: 30px 0;
+}
+
+.nabidka img{
+max-width: 70px;
+margin: 0;
+}
+
+.nabidka h2{
+font-size: 20px;
+font-weight: 700;
+margin: 0;
+color:#48418e ;
+}
+
+/* PATIČKA */ 
+
+footer{
+	width: 100%;
+	background-color:#48418e;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	padding: 2px 0;
+}
