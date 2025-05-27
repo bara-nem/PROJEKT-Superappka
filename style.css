@@ -77,13 +77,31 @@ a:hover, li:hover{
 	display: flex;
 	flex-basis: 100%;
 	background-image: url(images/pozadi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .hero .vlevo{
+	display: flex;
+	flex-direction: column;
+    justify-content: space-evenly; 
+    align-items: flex-start;   
 	width: calc(960px - 405px);
 	min-height: 450px;
+	padding-left: 30px;
+}
 
-	padding-left: 20px;
+.hero .vpravo{
+	display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end;    
+    width: 405px;             
+    min-height: 450px;  
+}
+
+.tlacitka {
+	display: flex;
+	gap: 20px; 
 }
 
 .hero h1{
@@ -111,6 +129,7 @@ a:hover, li:hover{
 
 .hero a:hover{
 background-color: #48418e;
+	box-shadow: 3px 3px 10px rgb(32, 32, 32);
 }
 
 /* NABÍDKA */
